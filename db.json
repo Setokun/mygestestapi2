@@ -1,0 +1,38 @@
+{
+    "teachers":[
+        {
+            "id":35, /* u_id > t_teacher */
+            "gender":"M.",
+            "firstName":"Sadry",
+            "name":"PORCOUR ",
+            "updateTime":"2017/09/08 9:45",
+            "mail":"sporcour@esgi.fr",
+            "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+        },
+        {
+            "id":20, /* u_id > t_teacher */
+            "gender":"M.",
+            "firstName":"Alban",
+            "name":"PACZ",
+            "updateTime":"2017/09/08 9:45",
+            "mail":"apacz@esgi.fr",
+            "urlPicture": "http://25.media.tumblr.com/tumblr_lt2lqyo1sF1r4fez7o1_1280.jpg"
+        }    
+    ],
+    /* absences */
+    "missingPeriods":[
+        {
+            "id":35, /* sps_id > r_student_presencesheet */
+            "course":"Cryptographie et sécurité logicielle",
+            "type":"Abscence",
+            "justified":true,
+            "updateTime":"2017/09/08 9:45"
+        }
+    ],
+    /* hook à intégrer à tout les retours de l'API */
+    "hook": {
+        "url" : "http://www.google.fr", 
+        "info": "Votre accès à l'application a été bloqué",
+        "type": "change-password" /* change-password | litigation | elearninglocked | internalrules | photoUploadRequired | survey | charteUtilisateur */
+    }
+}
