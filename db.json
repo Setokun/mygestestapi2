@@ -32,5 +32,22 @@
         "url" : "http://www.google.fr", 
         "info": "Votre accès à l'application a été bloqué",
         "type": "change-password"
+    },
+    "agendaEntries":{
+        "response_code":0,
+        "result":
+        {
+            "id":1,
+            "title":"JAVA",
+            "type":"Cours",
+            "description":"Mise à niveaux : Bases",
+            "startDate":"2017/09/18 9:45",
+            "endDate":"2017/09/18 11:15",
+            "professor":"M. Java",
+            "updateTime": "2017/09/18 9:45",
+            "idTeacher": 56124,
+            "idPlace":1,
+            "placeUpdateTime": "2017/09/08 9:45"
+        }
     }
 }
